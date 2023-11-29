@@ -31,15 +31,13 @@ specifiers:
   tslib: ^2.0.0
   typescript: ^3.9.3
 
-dependencies:
-  '@types/chrome': 0.0.114
-
 devDependencies:
   '@rollup/plugin-commonjs': 12.0.0_rollup@2.11.2
   '@rollup/plugin-json': 4.0.3_rollup@2.11.2
   '@rollup/plugin-node-resolve': 8.0.0_rollup@2.11.2
   '@rollup/plugin-typescript': 4.1.2_lrfk5nzemw7ezx47plq3klw5x4
   '@sucrase/jest-plugin': 2.0.0
+  '@types/chrome': 0.0.114
   '@types/filesystem': 0.0.29
   '@types/fs-extra': 9.0.1
   '@types/jest': 25.2.3
@@ -670,7 +668,7 @@ packages:
     dependencies:
       '@types/filesystem': 0.0.29
       '@types/har-format': 1.2.4
-    dev: false
+    dev: true
 
   /@types/color-name/1.1.1:
     resolution: {integrity: sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==}
@@ -692,9 +690,11 @@ packages:
     resolution: {integrity: sha512-85/1KfRedmfPGsbK8YzeaQUyV1FQAvMPMTuWFQ5EkLd2w7szhNO96bk3Rh/SKmOfd9co2rCLf0Voy4o7ECBOvw==}
     dependencies:
       '@types/filewriter': 0.0.28
+    dev: true
 
   /@types/filewriter/0.0.28:
     resolution: {integrity: sha1-wFTor02d11205jq8dviFFocU1LM=}
+    dev: true
 
   /@types/fs-extra/9.0.1:
     resolution: {integrity: sha512-B42Sxuaz09MhC3DDeW5kubRcQ5by4iuVQ0cRRWM2lggLzAa/KVom0Aft/208NgMvNQQZ86s5rVcqDdn/SH0/mg==}
@@ -710,7 +710,7 @@ packages:
 
   /@types/har-format/1.2.4:
     resolution: {integrity: sha512-iUxzm1meBm3stxUMzRqgOVHjj4Kgpgu5w9fm4X7kPRfSgVRzythsucEN7/jtOo8SQzm+HfcxWWzJS0mJDH/3DQ==}
-    dev: false
+    dev: true
 
   /@types/istanbul-lib-coverage/2.0.1:
     resolution: {integrity: sha512-hRJD2ahnnpLgsj6KWMYSrmXkM3rm2Dl1qkx6IOFD5FnuNPXJIG5L0dhgKXCYTRMGzU4n0wImQ/xfmRc4POUFlg==}
